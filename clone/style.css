@@ -1,0 +1,280 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+
+    list-style: none;
+}
+
+body {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f5f5f7;
+
+    overflow-x: hidden;
+
+    font-family: sans-serif;
+    font-weight: 300;
+
+    gap: 20px;
+}
+
+/* .boder {
+    border: 2px solid black;
+} */
+
+.nav {
+    height: 4vh;
+    width: 100%;
+    background-color: #f5f5f7;
+    padding: 0px 200px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+.logo {
+    height: 20px;
+    width: 20px;
+}
+
+.nav_ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+
+}
+
+nav>ul>li>a {
+    color: #4f5050;
+    font-family: sans-serif;
+}
+
+.banner {
+    margin: 0px 80px;
+    height: 22vh;
+    width: 90vw;
+
+
+    background-image: url("asstes/banner/diwali-store.png");
+
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side {
+    margin: 0px 20px;
+    gap: 20px;
+}
+
+.link {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.link>div>a {
+    text-decoration: none;
+    color: rgb(13 109 207);
+
+}
+
+.store {
+
+    font-size: 70px;
+    font-weight: 750;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #d80084, #ff8f66);
+    background-clip: text;
+    color: transparent;
+    text-shadow: none;
+}
+
+.side_text {
+
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 10px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.menu_list {
+
+    margin: 0px 80px;
+    height: 10vh;
+    width: 80vw;
+    padding: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.menu_img {
+    width: 155px;
+    height: 90px;
+
+
+}
+
+.menu>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold_line {
+    display: flex;
+    font-weight: 550;
+    font-size: 34px;
+    margin: 0px 80px;
+
+    color: rgba(79, 80, 80, 0.803);
+}
+
+.gridtnit {
+    background: linear-gradient(to right, #d80084, #ff8f66);
+    background-clip: text;
+    color: transparent;
+    text-shadow: none;
+}
+
+.new_products {
+    width: 90vw;
+    height: auto;
+    margin: 30px 30px;
+    padding-right: 70px;
+
+    /* gap: 20px; */
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scroll-padding: 1rem;
+    scrollbar-color: rgba(0, 0, 255, 0);
+    scrollbar-width: none;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: row;
+}
+
+.card {
+    width: 500px;
+    height: 508px;
+    border-radius: 1.5rem;
+    margin: 10px 20px;
+    box-shadow: 2px 5px 13px 7px #dbdbdb;
+
+
+    background-color: #ffffff;
+
+    scroll-snap-align: start;
+
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+
+}
+
+.card_img {
+    display: block;
+    height: 80%;
+    object-fit: cover;
+    width: 100%;
+
+    border-radius: 1.5rem;
+    position: relative;
+    z-index: 1;
+
+
+
+}
+
+.product_text {
+    padding: 0px 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    position: relative;
+    z-index: 2;
+    top: -485px;
+
+    gap: 10px;
+}
+
+.pre_oder {
+    color: #bf5a1e;
+    font-size: 14px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.product_name {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.detils {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.MRP {
+    font-size: 14px;
+}
+
+.store_pink{
+    color: #d80083;
+    font-weight: 700;
+}
