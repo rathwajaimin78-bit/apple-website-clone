@@ -243,7 +243,7 @@ nav>ul>li>a {
 
     position: relative;
     z-index: 2;
-    top: -485px;
+    top: -498px;
 
     gap: 10px;
 }
@@ -274,7 +274,29 @@ nav>ul>li>a {
     font-size: 14px;
 }
 
-.store_pink{
+.store_pink {
     color: #d80083;
     font-weight: 700;
+}
+
+.apple_store {
+    padding: 20px;
+}
+
+
+
+.apple_store .card {
+
+    height: 519px;
+}
+
+.apple_store .card_img {
+
+    height: 78%;
+
+}
+
+.apple_store .hover-video {
+
+    height: 75% !important;
 }
