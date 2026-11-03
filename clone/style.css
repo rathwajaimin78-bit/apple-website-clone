@@ -277,6 +277,7 @@ nav>ul>li>a {
 .store_pink {
     color: #d80083;
     font-weight: 700;
+    display: inline-flex;
 }
 
 .apple_store {
@@ -299,4 +300,46 @@ nav>ul>li>a {
 .apple_store .hover-video {
 
     height: 75% !important;
+}
+
+.offters_bar .card_img {
+    height: 78%;
+}
+
+.small_cards_box {
+    height: 519px;
+    width: auto;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.section {
+
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.small_cards {
+    width: 300px;
+    height: 200px;
+    border-radius: 1.5rem;
+    padding: 20px;
+
+    box-shadow: 2px 5px 13px 7px #dbdbdb;
+    background-color: #ffffff;
+
+    display: flex;
+    align-items: center;
+
+}
+.line{
+    font-size: 26px;
+    font-weight: 600;
 }
