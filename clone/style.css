@@ -29,9 +29,9 @@ body {
     gap: 20px;
 }
 
-/* .boder {
+.boder {
     border: 2px solid black;
-} */
+}
 
 .nav {
     height: 4vh;
@@ -339,7 +339,32 @@ nav>ul>li>a {
     align-items: center;
 
 }
-.line{
+
+.line {
     font-size: 26px;
     font-weight: 600;
+}
+
+
+
+
+.text_down {
+    top: -100px;
+}
+
+.music .card {
+    height: 470px;
+    width: 400px;
+}
+
+.music .card_img {
+    height: 80%;
+
+}
+
+
+
+
+.music .product_name {
+    font-size: 22px;
 }
