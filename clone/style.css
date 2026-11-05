@@ -29,9 +29,11 @@ body {
     gap: 20px;
 }
 
-.boder {
+
+/* forver devlpment work */
+/* .boder {
     border: 2px solid black;
-}
+} */
 
 .nav {
     height: 4vh;
@@ -348,23 +350,78 @@ nav>ul>li>a {
 
 
 
-.text_down {
+/* .text_down {
     top: -100px;
-}
+} */
 
-.music .card {
+.music :first-child .card {
     height: 470px;
     width: 400px;
 }
 
-.music .card_img {
-    height: 80%;
+.music :first-child .card_img {
+    height: 69%;
+
+
+}
+
+.music .product_name {
+    font-size: 22px;
 
 }
 
 
+.dowen_card {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    height: 470px;
+    width: 400px;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 
-.music .product_name {
-    font-size: 22px;
+.dowen_text_img {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+
+}
+
+
+.text_down {
+    z-index: 1;
+    position: relative;
+    top: 0px;
+    margin: auto;
+    display: flex;
+}
+
+.text_down .product_name {
+    font-size: 18px;
+    font-weight: 550;
+    
+}
+
+.text_down .MRP {
+    margin-top: 10px;
+}
+
+.colur_bar {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.colur {
+    height: 18px;
+    width: 18px;
 }
