@@ -347,7 +347,12 @@ nav>ul>li>a {
     font-weight: 600;
 }
 
+.music>.card {
 
+
+    width: 470px;
+
+}
 
 
 /* .text_down {
@@ -404,7 +409,7 @@ nav>ul>li>a {
 .text_down .product_name {
     font-size: 18px;
     font-weight: 550;
-    
+
 }
 
 .text_down .MRP {
@@ -424,4 +429,89 @@ nav>ul>li>a {
 .colur {
     height: 18px;
     width: 18px;
+}
+
+.Accessories_bar .card {
+
+    height: 568px;
+    width: 470px;
+
+}
+
+.Accessories_bar .dowen_card {
+    height: 565px;
+    width: 470px;
+    padding: 0;
+}
+
+
+.apple_experience .product_text {
+
+
+    position: relative;
+    top: -455px;
+
+}
+.apple_experience .product_name {
+    font-size: 24px;
+
+
+}
+.apple_experience .pre_oder{
+    color: black;
+}
+
+.apple_experience :nth-child(5) .card{
+    width: 448px;
+}
+
+.apple_experience :nth-child(5) .card_img{
+   height: 100%;
+}
+
+
+.savings .pre_oder{
+    color: black;
+}
+
+.savings .product_name{
+    font-size: 31px;
+}
+.savings .product_text{
+    top: -554px;
+}
+.savings .card_img{
+    height: 75%;}
+
+.savings .card{
+    height: 580px;
+    width: 480px;
+}
+
+
+
+/* end page content css  */
+.Black{
+    color: black;
+}
+
+.others_links{
+    display: flex;
+    gap: 15px ;
+    margin: 10px 80px;
+}
+
+.links{
+
+    height: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+    border: 1px solid #000;
+    border-radius: 2rem;
+
+    
 }
