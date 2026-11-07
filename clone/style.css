@@ -30,10 +30,10 @@ body {
 }
 
 
-/* forver devlpment work */
-/* .boder {
+/* for  devlpment work */
+.boder {
     border: 2px solid black;
-} */
+}
 
 .nav {
     height: 4vh;
@@ -452,38 +452,43 @@ nav>ul>li>a {
     top: -455px;
 
 }
+
 .apple_experience .product_name {
     font-size: 24px;
 
 
 }
-.apple_experience .pre_oder{
+
+.apple_experience .pre_oder {
     color: black;
 }
 
-.apple_experience :nth-child(5) .card{
+.apple_experience :nth-child(5) .card {
     width: 448px;
 }
 
-.apple_experience :nth-child(5) .card_img{
-   height: 100%;
+.apple_experience :nth-child(5) .card_img {
+    height: 100%;
 }
 
 
-.savings .pre_oder{
+.savings .pre_oder {
     color: black;
 }
 
-.savings .product_name{
+.savings .product_name {
     font-size: 31px;
 }
-.savings .product_text{
+
+.savings .product_text {
     top: -554px;
 }
-.savings .card_img{
-    height: 75%;}
 
-.savings .card{
+.savings .card_img {
+    height: 75%;
+}
+
+.savings .card {
     height: 580px;
     width: 480px;
 }
@@ -491,17 +496,17 @@ nav>ul>li>a {
 
 
 /* end page content css  */
-.Black{
+.Black {
     color: black;
 }
 
-.others_links{
+.others_links {
     display: flex;
-    gap: 15px ;
+    gap: 15px;
     margin: 10px 80px;
 }
 
-.links{
+.links {
 
     height: 15px;
     padding: 10px;
@@ -513,5 +518,86 @@ nav>ul>li>a {
     border: 1px solid #000;
     border-radius: 2rem;
 
-    
+
+}
+
+
+
+.button :hover {
+    background-color: #000;
+    color: white;
+}
+
+
+/* footer of the page */
+
+
+.documention {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.documention p {
+    width: 50%;
+
+}
+
+.Terms {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    font-size: 14px;
+    color: #4f5050;
+    font-weight: 200;
+}
+
+.Terms a{
+    color: #4f5050;
+    text-decoration: underline;
+}
+
+.line{
+    margin: 30px;
+    width: 50%;
+    height: 1px;
+    background-color: #4f5050;
+}
+
+
+.store_links{
+    width: 50%;
+    color: #464747;
+}
+
+.apple_online{
+    display: flex;
+    width: 50%;
+    height: 20px;
+    gap: 20px;
+}
+
+.apple_logo {
+    height: 18px;
+    width: 18px;    
+}
+
+.apple_online li{
+    list-style-type:none;
+}
+
+.arrow{
+    font-weight: 500;
+    width: 5px;
 }
