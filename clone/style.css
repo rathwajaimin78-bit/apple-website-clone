@@ -31,20 +31,20 @@ body {
 
 
 /* for  devlpment work */
-.boder {
+/* .boder {
     border: 2px solid black;
-}
+} */
 
 .nav {
     height: 4vh;
-    width: 100%;
+    width: 92%;
     background-color: #f5f5f7;
     padding: 0px 200px 0px;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
 
 }
 
@@ -58,7 +58,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 30px;
+    gap: 40px;
+    font-size: 14px;
 
 }
 
@@ -67,8 +68,28 @@ nav>ul>li>a {
     font-family: sans-serif;
 }
 
+
+.highlight {
+    width: 100%;
+    height: 4vh;
+    position: relative;
+    top: -20px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.highlight a{
+    color: #06c;
+}
+
 .banner {
     margin: 0px 80px;
+    margin-top: -37px;
     height: 22vh;
     width: 90vw;
 
@@ -121,6 +142,7 @@ nav>ul>li>a {
     font-family: sans-serif;
     font-size: 40px;
     margin: 10px 20px;
+    font-weight: 600;
 
     display: flex;
     align-items: center;
@@ -568,7 +590,7 @@ nav>ul>li>a {
     text-decoration: underline;
 }
 
-.line{
+.Line{
     margin: 30px;
     width: 50%;
     height: 1px;
@@ -578,7 +600,8 @@ nav>ul>li>a {
 
 .store_links{
     width: 50%;
-    color: #464747;
+    
+    
 }
 
 .apple_online{
@@ -586,6 +609,8 @@ nav>ul>li>a {
     width: 50%;
     height: 20px;
     gap: 20px;
+    color: #464747;
+    margin-bottom: 20px;
 }
 
 .apple_logo {
@@ -600,4 +625,67 @@ nav>ul>li>a {
 .arrow{
     font-weight: 500;
     width: 5px;
+}
+
+.other-serves{
+    display: flex;
+    gap: 100px;
+}
+.cols ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 14px;
+    
+}
+.cols a {
+    color: #4f5050;
+}
+.a_text{
+    font-size: 14px;
+}
+.a_text a{
+    color: #06c;
+    text-decoration: underline;
+}
+footer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #464747;
+
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.rights{
+    display: flex;
+    gap: 20px;
+}
+
+.rights ul{
+    display: flex;  
+    gap: 10px;
+}
+
+.asstent{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 4;
+    background-color: #add8ff;
+    border-radius: 100%;
+
+    margin: 40px;
+
+}
+.asstent img{
+
+    height: 80px;
+    width: 80px;
+    border-radius: inherit;
+
 }
