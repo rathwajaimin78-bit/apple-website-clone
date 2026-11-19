@@ -37,7 +37,7 @@ body {
 
 .nav {
     height: 4vh;
-    width: 92%;
+    min-width: 92%;
     background-color: #f5f5f7;
     padding: 0px 200px 0px;
 
@@ -83,7 +83,9 @@ nav>ul>li>a {
     font-weight: 400;
 }
 
-.highlight a{
+
+
+.highlight a {
     color: #06c;
 }
 
@@ -140,7 +142,7 @@ nav>ul>li>a {
 .side_text {
 
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 34px;
     margin: 10px 20px;
     font-weight: 600;
 
@@ -162,6 +164,12 @@ nav>ul>li>a {
     align-items: center;
     justify-content: left;
     gap: 20px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
 }
 
 .menu {
@@ -585,12 +593,12 @@ nav>ul>li>a {
     font-weight: 200;
 }
 
-.Terms a{
+.Terms a {
     color: #4f5050;
     text-decoration: underline;
 }
 
-.Line{
+.Line {
     margin: 30px;
     width: 50%;
     height: 1px;
@@ -598,13 +606,13 @@ nav>ul>li>a {
 }
 
 
-.store_links{
+.store_links {
     width: 50%;
-    
-    
+
+
 }
 
-.apple_online{
+.apple_online {
     display: flex;
     width: 50%;
     height: 20px;
@@ -615,40 +623,49 @@ nav>ul>li>a {
 
 .apple_logo {
     height: 18px;
-    width: 18px;    
+    width: 18px;
 }
 
-.apple_online li{
-    list-style-type:none;
+.apple_online li {
+    list-style-type: none;
 }
 
-.arrow{
+.arrow {
     font-weight: 500;
     width: 5px;
 }
 
-.other-serves{
+.other-serves {
     display: flex;
     gap: 100px;
 }
-.cols ul{
+
+.cols ul {
     display: flex;
     flex-direction: column;
     gap: 15px;
     font-size: 14px;
-    
+
 }
+
+.cols li {
+    width: max-content;
+}
+
 .cols a {
     color: #4f5050;
 }
-.a_text{
+
+.a_text {
     font-size: 14px;
 }
-.a_text a{
+
+.a_text a {
     color: #06c;
     text-decoration: underline;
 }
-footer{
+
+footer {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -660,17 +677,17 @@ footer{
     margin-bottom: 30px;
 }
 
-.rights{
+.rights {
     display: flex;
     gap: 20px;
 }
 
-.rights ul{
-    display: flex;  
+.rights ul {
+    display: flex;
     gap: 10px;
 }
 
-.asstent{
+.asstent {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -682,10 +699,38 @@ footer{
     margin: 40px;
 
 }
-.asstent img{
+
+.asstent img {
 
     height: 80px;
     width: 80px;
     border-radius: inherit;
+
+}
+
+
+/* optimize of small screens  */
+
+
+@media screen and (max-width: 900px) {
+
+
+    .side_text {
+        font-size: 22px;
+    }
+
+    .highlight {
+        width: 100%;
+    }
+
+    .bold_line {
+        font-size: 34px;
+    }
+
+    .nav_ul {
+        font-size: 14px;
+    }
+
+
 
 }
